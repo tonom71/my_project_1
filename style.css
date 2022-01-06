@@ -3,13 +3,14 @@ body{
     margin: 0;
 }
 h1{
-    font-size: 80px;
+    font-size: 60px;
    }
 .name{
     color: orange;
 }   
-section{
+.flexible-container{
     display: flex;
+ 
 }
 .half-width{
     width: 50%;
@@ -27,13 +28,60 @@ section{
     border-radius: 5%;   
    
 }
-.half-width p{
 
-    font-size: 20px;
-}
+
 .first_section
 {
     background-image:url(images/top-banner.png);
     background-repeat: no-repeat;
     
+}
+h2{
+    font-size: 40px;
+}
+.dream_big
+{
+    margin-top: 120px;
+}
+.dream_big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+p{
+    padding-right: 10px;
+    font-size: 20px;
+}
+.experience-item
+{
+    width: 40%;
+    padding: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 20px 20px 40px silver;
+    border: solid black;
+   
+}
+.Experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.Experience .name{
+    text-align: center;
+}
+.my_footer
+{
+    width: 60%;
+    padding: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 5px 40px silver;
+    background-image:linear-gradient(orange,tomato) ;
+    
+}
+footer{
+    margin-bottom: 50px;
+    
+   
 }
